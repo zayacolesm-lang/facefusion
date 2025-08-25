@@ -1,10 +1,10 @@
 import gradio as gr
-from facefusion import core  # presupunând că în facefusion.py e logica principală
+from facefusion import face_swap  # presupunând că în facefusion.py e logica principală
 
 def run_facefusion(image_path: str):
     # Aici trebuie să apelezi funcția ta reală de procesare
     # Exemplu: return core.face_swap(image_path)
-    return "Procesare în curs..."  # Test temporar
+    return face_swap(image_path)
 
 gr.Interface(
     fn=run_facefusion,
