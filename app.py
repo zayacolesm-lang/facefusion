@@ -13,3 +13,4 @@ gr.Interface(
     title="FaceFusion 3.0"
 ).launch(server_name="0.0.0.0", server_port=7860)
 # trigger build
+# retry link generate
