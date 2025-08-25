@@ -12,3 +12,4 @@ gr.Interface(
     outputs="text",
     title="FaceFusion 3.0"
 ).launch(server_name="0.0.0.0", server_port=7860)
+# trigger buid
